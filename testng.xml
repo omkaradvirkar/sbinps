@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Studentportal Automation-Suite">
+    <!-- <test name="Test which are running on prod env">
+        <parameter name="baseURL" value="https://studentzone-ncdoe.nmims.edu"/>
+        <packages>
+            <package name="content" />
+            <package name="learnersengagement" />
+            <package name="examresults" />
+            <package name="assignmentmarks" />
+            <package name="knowyourpolicy" />
+            <package name="examcalendar" />
+        </packages>
+    </test> -->
+
+    <test name="Test which are running on local env">
+        <parameter name="baseURL" value="https://test-studentzone-ngasce.nmims.edu/"/>
+        <packages>
+           <package name="internalassessments"/>
+        </packages>
+    </test>
+</suite>
